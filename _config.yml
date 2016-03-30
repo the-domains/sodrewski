@@ -1,28 +1,40 @@
-name: SODREWSKI
 favicon: null
-layout_spectrum: 0.3662906279787421
-typography_spectrum: 0.34310154570266604
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: SODREWSKI
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.4206837250385433
+  brandStrength: 0.546595
+  lightness: 0.6773451813496649
   brandColors:
     - '#17BEBB'
     - '#2E282A'
     - '#CD5334'
     - '#EDB88B'
     - '#FAD8D6'
-  brandStrength: 0.08329475368373096
-  lightness: 0.6773451813496649
-  saturation: 0.42068372503854334
   rhythmicContrast: 0.8584418408572674
-purpose: []
+typography_spectrum: 0.5663083
+layout_spectrum: 0.2222222
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
